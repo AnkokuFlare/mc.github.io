@@ -840,10 +840,10 @@ main {
 
 .wip-graphic {
   width: 201px;
-  height: 232px;
+  height: 252px;
   background-image: url("img/metro.png");
   border-radius: 6px;
-  margin-bottom: 1px;
+  margin-bottom: -3px;
 }
 
 .wip-graphic2 {
