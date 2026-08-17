@@ -839,11 +839,11 @@ main {
 }
 
 .wip-graphic {
-  width: 180px;
-  height: 218px;
+  width: 201px;
+  height: 100%;
   background-image: url("img/metro.png");
   border-radius: 6px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .wip-graphic2 {
