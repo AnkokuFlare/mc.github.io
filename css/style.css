@@ -74,7 +74,7 @@ body {
 
   /* Background setup */
   background-color: #f7eff7;
-  background-image: url('assets/img/bgcrop.png');
+  background-image: url('../img/bgcrop.png');
   background-repeat: repeat; 
   animation: movingBackground 40s linear infinite;
 }
@@ -609,7 +609,7 @@ main {
   box-shadow: 0 4px 0 #d3cbd3;
   
   /* Background setup */
-  background-image: url("assets/img/bg-h.png");
+  background-image: url("../img/bg-h.png");
   background-color: #baafbc;
   background-repeat: repeat;
   background-size: auto; /* Changed from contain to protect the pixel grid math */
@@ -636,7 +636,7 @@ main {
   width: 198px;
   height: 212px;
   align-items: left;
-  background-image: url("assets/img/ankokuflare-gen2.png");
+  background-image: url("../img/ankokuflare-gen2.png");
   border-radius: 0px;
 }
 
@@ -770,7 +770,7 @@ main {
 }
 
 .card {
-  background-image: url("assets/img/bg-c.png");
+  background-image: url("../img/bg-c.png");
   background-color: #c4b9cc;
   border: 4px solid #fff;
   border-radius: 12px;
@@ -791,7 +791,7 @@ main {
 .card-graphic2 {
   width: 240px;
   height: 224px;
-  background-image: url("assets/img/flarepalpack.png");
+  background-image: url("../img/flarepalpack.png");
   border-radius: 8px;
   opacity: 0.8;
 }
@@ -841,7 +841,7 @@ main {
 .wip-graphic {
   width: 201px;
   height: 200px;
-  background-image: url("assets/img/metro.png");
+  background-image: url("../img/img/metro.png");
   border-radius: 6px;
   margin-bottom: 10px;
 }
@@ -849,7 +849,7 @@ main {
 .wip-graphic2 {
   width: 192px;
   height: 256px;
-  background-image: url("assets/img/saraph.png");
+  background-image: url("../img/saraph.png");
   border-radius: 6px;
   margin-bottom: 8px;
 }
