@@ -843,7 +843,7 @@ main {
   height: 100%;
   background-image: url("img/metro.png");
   border-radius: 6px;
-  margin-bottom: -3px;
+  margin-bottom: 50px;
 }
 
 .wip-graphic2 {
