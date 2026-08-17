@@ -840,9 +840,10 @@ main {
 
 .wip-graphic {
   width: 201px;
-  height: 243px;
+  height: 100%;
   background-image: url("img/metro.png");
   border-radius: 6px;
+  margin-bottom: -3px;
 }
 
 .wip-graphic2 {
@@ -850,6 +851,7 @@ main {
   height: 256px;
   background-image: url("img/saraph.png");
   border-radius: 6px;
+  margin-bottom: 8px;
 }
 
 /* Accent color border for the dragon survival image */
