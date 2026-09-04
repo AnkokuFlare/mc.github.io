@@ -811,9 +811,11 @@ main {
   justify-content: flex-start;
   align-items: stretch;
   
-  /* Forces the item to take up the full row width, shifting it down */
-  grid-column: 1 / -1; 
+  /* Hard breaks the layout flow into its own baseline row */
+  display: block;
+  width: 100%;
 }
+
 
 .wip-title {
   color: #fff;
