@@ -89,7 +89,7 @@ body {
 .grid-container,
 main {
   width: 100%;             /* Allows fluid shrinking on small mobile screens */
-  max-width: 1200px;       /* Keeps the layout tight and centered on wide monitors */
+  max-width: 1000px;       /* Keeps the layout tight and centered on wide monitors */
   box-sizing: border-box;  /* Prevents border sizes from breaking the 100% width */
 }
 
@@ -100,7 +100,7 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 /* From Uiverse.io by 3HugaDa3 */ 
