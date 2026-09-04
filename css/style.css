@@ -91,6 +91,9 @@ main {
   width: 100%;             /* Allows fluid shrinking on small mobile screens */
   max-width: 1500px;       /* Keeps the layout tight and centered on wide monitors */
   box-sizing: border-box;  /* Prevents border sizes from breaking the 100% width */
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the spacing between your cards here */
 }
 
 
@@ -811,9 +814,7 @@ main {
   justify-content: flex-start;
   align-items: stretch;
   
-  /* Hard breaks the layout flow into its own baseline row */
-  display: block;
-  width: 100%;
+  flex-basis: 100%; /* Spans 100% of the width, forcing a new line */
 }
 
 
