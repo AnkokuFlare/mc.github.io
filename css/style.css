@@ -91,11 +91,10 @@ main {
   width: 100%;             /* Allows fluid shrinking on small mobile screens */
   max-width: 1500px;       /* Keeps the layout tight and centered on wide monitors */
   box-sizing: border-box;  /* Prevents border sizes from breaking the 100% width */
-    display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* Adjust the spacing between your cards here */
 }
-
+.grid-container .card {
+  flex: 1 1 calc(33.333% - 14px); /* (100% / 3 cards) minus gap allowance */
+}
 
 .container {
   width: 100%;
