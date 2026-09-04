@@ -92,6 +92,13 @@ main {
   max-width: 1500px;       /* Keeps the layout tight and centered on wide monitors */
   box-sizing: border-box;  /* Prevents border sizes from breaking the 100% width */
 }
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between your cards */
+}
+
 .grid-container .card {
   flex: 1 1 calc(33.333% - 14px); /* (100% / 3 cards) minus gap allowance */
 }
