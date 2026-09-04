@@ -810,8 +810,7 @@ main {
   background-color: #d1c7d6;
   justify-content: flex-start;
   align-items: stretch;
-  break-before: always; 
-  flex-basis: 100%; /* Ensures it takes up the full row if needed */
+  grid-column: 1; 
 }
 
 .wip-title {
