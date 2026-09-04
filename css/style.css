@@ -805,11 +805,13 @@ main {
 
 /* --- Work In Progress Card --- */
 .wip-card {
-	filter: brightness(0.7) grayscale(0.4);
-	padding: 10px 20px;
+  filter: brightness(0.7) grayscale(0.4);
+  padding: 10px 20px;
   background-color: #d1c7d6;
   justify-content: flex-start;
   align-items: stretch;
+  
+  /* Forces the card to start on a new row */
   grid-column: 1; 
 }
 
