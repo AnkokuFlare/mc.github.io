@@ -896,32 +896,3 @@ main {
   pointer-events: none;  /* Allows you to click items underneath it */
 }
 
-/* 1. Global Page Content Wrapper (Handles the master alignment constraint) */
-.page-content {
-  position: relative;
-  z-index: 10;           /* Floating layer context on top of the trail canvas */
-  width: 100%;
-  max-width: 1200px;     /* Limits wide monitor stretching cleanly */
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  box-sizing: border-box;
-}
-
-/* 2. Main structural layouts stretch naturally to fill the page container width */
-.main-header, 
-.grid-container,
-main {
-  position: relative;
-  z-index: 10;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* 3. PROTECTED CARD RULE: Cards must never have fixed widths or max-widths forced here */
-.card {
-  position: relative;
-  z-index: 10;
-  width: 100%;           /* Inherits fluid space allocated by the parent CSS grid wrapper */
-  box-sizing: border-box;
-}
