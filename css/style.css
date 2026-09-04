@@ -81,7 +81,7 @@ body {
 
 @keyframes movingBackground {
   0% { background-position: 0 0; }
-  100% { background-position: 1080px -1080px; }
+  100% { background-position: 1280px -1080px; }
 }
 
 /* CRITICAL: Ensure your main structural children stretch responsively */
@@ -89,7 +89,7 @@ body {
 .grid-container,
 main {
   width: 100%;             /* Allows fluid shrinking on small mobile screens */
-  max-width: 1000px;       /* Keeps the layout tight and centered on wide monitors */
+  max-width: 1280px;       /* Keeps the layout tight and centered on wide monitors */
   box-sizing: border-box;  /* Prevents border sizes from breaking the 100% width */
 }
 
