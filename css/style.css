@@ -774,6 +774,10 @@ main {
   margin-bottom: 30px;
 }
 
+.grid-content .card {
+  flex: 1 1 calc(33.333% - 14px); /* (100% / 3 cards) minus gap allowance */
+}
+
 .card {
   background-image: url("img/bg-c.png");
   background-color: #c4b9cc;
