@@ -767,8 +767,8 @@ main {
 
 /* --- Main Grid Content Layout --- */
 .grid-content {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 20px;
   margin-bottom: 30px;
