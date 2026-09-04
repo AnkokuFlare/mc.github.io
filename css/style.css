@@ -811,8 +811,8 @@ main {
   justify-content: flex-start;
   align-items: stretch;
   
-  /* Forces the card to start on a new row */
-  grid-column: 1; 
+  /* Forces the item to take up the full row width, shifting it down */
+  grid-column: 1 / -1; 
 }
 
 .wip-title {
