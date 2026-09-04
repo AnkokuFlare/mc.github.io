@@ -784,6 +784,7 @@ main {
   border: 4px solid #fff;
   border-radius: 12px;
   padding: 10px;
+  min-width: 480px;
   min-height: 320px;
   display: flex;
   flex-direction: column;
